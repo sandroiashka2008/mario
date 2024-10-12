@@ -1,0 +1,121 @@
+body{
+    display: flex;
+  }
+    
+    
+  #sun{
+      width: 300px;
+      height: 300px;
+  display: flex;
+    animation-name: sunanimation;
+  animation-duration: 20s;
+     position: absolute;
+     margin-top: -1%;
+     margin-left: 45%;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+      
+  }
+  
+  @keyframes sunanimation {
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    from {
+  
+  
+  transform: rotate(360deg);
+  
+    }
+  
+  
+  
+  
+  
+  
+  }
+  
+  #back{
+  width: 120%;
+  height: 98vh;
+  
+  
+  }
+  
+  #mario1{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-top: -16%;
+  animation-timing-function: 1s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: mario1;
+  
+  }
+  
+  @keyframes mario1 {
+   from{transform: translateX(0);}
+  to {transform: translateX(1400px);}
+  
+  
+    
+  
+  }
+  
+  
+  
+  
+  
+  #mario2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-top: -10%;
+  animation-name: mario2;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  
+  
+  }
+  
+  
+  
+  
+  @keyframes mario2{
+  
+     
+    from{transform: translateX(0);}
+  to {transform: translateX(1400px);}
+  
+  
+  
+  
+  
+  }
+  
+  #tree{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: -29%;
+  margin-left: 60%;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: tree;
+  }
+  
+  @keyframes tree {
+    from{transform: translateX(1400px);}
+    to {transform: translateX(-1500px);}
+    
+   
+  }
+  
+  
